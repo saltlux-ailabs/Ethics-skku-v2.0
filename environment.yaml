@@ -1,0 +1,20 @@
+name: dapi
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+      - transformers==4.30.2
+      - transformer-lens==1.7.0
+      - accelerate==0.20.3

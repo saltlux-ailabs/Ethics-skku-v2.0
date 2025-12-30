@@ -1,1 +1,1 @@
-readme
+Ethics-skku.
